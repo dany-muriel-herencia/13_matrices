@@ -1,6 +1,5 @@
 #include<iostream>
-/*Halle la suma de los elementos de la diagonal secundaria de una matriz cuadrada.
-*/
+
 using namespace std;
 int main(){
          int n,matris[100][100];
