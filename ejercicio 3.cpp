@@ -8,7 +8,7 @@ int main(){
              
     for(int i=0 ;i<n;i++){
         for(int j=0;j<n;j++){
-            if(i==0 || i==a || j==a ){
+            if(i==0 || i==n-1 || j==n-1 || j==0 ){
             matris[i][j]=1;
             }
             else {
@@ -16,19 +16,20 @@ int main(){
 
     }
     }
+    }
     
             for(int k=0 ;k<n;k++){
-            for(int l=0;l<n;l++){
-                cout<<matris[k][l]<<" ";   
+                for (int j = 0; j < n; j++) {
+                cout<<matris[k][j]<<" ";   
                 }
             cout<<endl;
-    }
+            }
 
 
 
 
 
-
+    
     return 0;
-}
+
 }
